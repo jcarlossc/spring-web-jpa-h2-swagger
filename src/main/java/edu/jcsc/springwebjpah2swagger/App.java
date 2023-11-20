@@ -21,7 +21,5 @@ public class App implements CommandLineRunner {
 
         productRepository.save(p1);
         productRepository.save(p2);
-
-        System.out.println("TESTANDO");
     }
 }
